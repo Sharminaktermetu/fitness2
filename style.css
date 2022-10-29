@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding:0px
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.manu-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.manus{
+    display: flex;
+    justify-content: center;
+}
+.manus li{
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.banner-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+    width: 100%;
+}
+.all-top-text{
+    margin: 20px;
+}
+.para{
+    color: red;
+    font-size: 22px;
+
+}
+.heading{
+    font-size: 60px;
+    font-weight: bold;
+}
+.button{
+    padding: 10px 15px;
+    background-color: rgb(151, 33, 33);
+    font-size: 18px;
+    border-radius: 8px;
+    color: white;
+    margin: 15px 0px;
+}
+/* ----------- header-banner part end ----------*/
+
+.section-title{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 85px;
+    font-weight: bolder;
+}
+.cart-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cart-wraper{
+    width: 260px;
+    border: 2px solid gray;
+    box-shadow: 1px 6px 20px 3px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.cart-container img{
+    width: 80px;
+}
+.cart-text{
+    font-size: 25px;
+    color: gray;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+/*cart part added  */
+
+.about-warp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   color: white;
+   background-color: black;
+}
+.about-img{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    transform: skewX(30deg);
+    margin-left: 90px;
+}
+.about-text{
+    margin-top: 30px;
+}
+.about-text li{
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.para2{
+    margin: 25px 0px;
+}
+
+/* about gym end */
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 550px;
+}
