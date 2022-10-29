@@ -28,12 +28,6 @@
   }
 
 
-
-
-
-
-
-
 .manu-container{
     display: flex;
     background-color: black;
@@ -50,7 +44,11 @@
     list-style: none;
     margin-left: 10px;
     padding-left: 10px;
-    cursor: pointer;
+    
+}
+.manus li:hover{
+    cursor:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png),auto;
+    color: red;
 }
 .banner-container{
     display: flex;
@@ -61,7 +59,7 @@
     width: 100%;
 }
 .all-top-text{
-    margin: 20px;
+    margin-left: 50px;
 }
 .para{
     color: red;
@@ -185,3 +183,20 @@
     align-items: center;
 }
 /* footer cart end */
+.footer{
+    text-align: center;
+    padding: 30px;
+}
+.social{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 12px;
+}
+.social p{
+    margin-right: 15px;
+}
+.name{
+    color: red;
+}
