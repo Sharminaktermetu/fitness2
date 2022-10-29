@@ -121,3 +121,25 @@
     margin-top: 50px;
     width: 550px;
 }
+/* subscribe end */
+.another-cart-part{
+ width: 300px;
+ border: 2px solid red;
+}
+.top-image img{
+    width: 100%;
+}
+.bottom-text p{
+    color: gray;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.bottom-text{
+ text-align: justify;
+ padding: 12px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
